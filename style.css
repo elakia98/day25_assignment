@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+h3{
+    text-align: center;
+
+}
+table{
+    
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3);
+    background: #fafafa;
+    text-align:center;
+}
+
+th,td{
+    padding: 12px 15px;
+}
+th{
+    background: #ba68ba;
+    color:#fafafa;
+    text-transform: uppercase;
+    font-family:'Roboto',sans-serif;
+}
+td{
+    font-family:'Open Sans',sans-serif;
+}
+tr:nth-child(odd){
+    background-color: #eeeeee;
+}
